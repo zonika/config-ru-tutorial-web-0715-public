@@ -1,8 +1,4 @@
----
-  tags: rack, tutorial, config.ru, introductory
-  languages: ruby
-  resources: 4
----
+
 
 # Config.ru
 
