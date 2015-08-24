@@ -46,7 +46,7 @@ Every time you are told to run `rackup` on your commandline, make sure you have 
 12. Want to be fancy? Try to replace your entire config.ru (except for the `require 'rack'` line) with:
 
   ```ruby
-  run lambda { |env| [200, {'Content-Type'=>'text/plain'}, ["Hello Rack!"]] }
+  run lambda { |env| [200, {'Content-Type'=>'text/plain'}, ["Hello Rack!"]] }   
   ```
 
   Why does that work?
